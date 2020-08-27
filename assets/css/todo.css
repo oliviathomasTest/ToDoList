@@ -1,0 +1,91 @@
+
+canvas{
+	width:100%;
+	height:100%;
+	
+}
+body,html{
+	background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /
+	height: 100%;
+	font-family: 'Roboto Slab', serif;
+margin:0;
+}
+
+
+#container{
+	margin:100px auto;
+	width:420px;
+	background: rgb(220,220,220);
+}
+
+h1{
+	background: rgb(40,40,40);
+	color:white;
+	margin : 0;
+	padding: 7px 7px 7px 20px;
+}
+
+input{
+	margin:0;
+	height:50px;
+	width:100%;
+	border:none;
+	outline: none;
+	padding-left: 20px;
+	box-sizing: border-box;
+	background: rgb(220,220,220);
+	font-size: 16px;
+}
+input:focus{
+	outline: solid;
+	font-size: 16px;
+	background: rgb(255,255,255);
+}
+ul{
+	margin:0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+	margin:0;
+	padding: 14px 0;
+	line-height: 10px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	
+}
+li:nth-child(2n){
+	background: rgb(255,255,255);
+}
+
+li span{
+	
+        margin-right:10px;
+          width: 0;
+        
+       
+       text-align:center;
+    	display: none;
+    	
+     
+}
+li:hover span{
+	display: inline-block;
+	transition-delay: : 5s;
+          width: 24px;
+          height: auto;
+        
+}
+
+.connected{
+color :#606060;
+text-decoration:line-through;
+}
+
+.fa-pencil-alt{
+	float: right;
+	position: center;
+}
+
